@@ -1,0 +1,42 @@
+body {
+  text-align: center;
+  background:   green;
+}
+
+#container{
+  width: 800px;
+  height: 450px;
+  margin: auto;
+  background-color: purple;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr 1fr 1fr;
+}
+#problem{
+  grid-column: 2 /3;
+  grid-row: 1;
+  background-color: yellow;
+}
+#level{
+  grid-column: 3 /4;
+  grid-row: 1;
+  background-color: yellow;
+}
+#answer{
+  grid-column: 2 /3;
+  grid-row: 2;
+  background-color: yellow;
+}
+#score{
+  grid-column: 3 /4;
+  grid-row: 2;
+  background-color: yellow;
+}
+#feedback{
+  grid-column: 2 /3;
+  grid-row: 3;
+  background-color: yellow
+}
+canvas{
+  background: #112611;
+}
